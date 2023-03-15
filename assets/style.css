@@ -76,10 +76,6 @@ main {
 .links button {
   cursor: pointer;
 
-  background: #db2777;
-  border: 0;
-  border-radius: 8rem;
-
   font-family: var(--ff-first);
   font-weight: 700;
   font-size: 2rem;
@@ -88,4 +84,12 @@ main {
   padding: 1.6rem 3.2rem;
 
   color: #ffffff;
+  
+  background: #db2777;
+  border: 0;
+  border-radius: 8rem;
+}
+
+.links button:hover {
+  background: #be0f5e;
 }
