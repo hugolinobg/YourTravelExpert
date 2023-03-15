@@ -1,0 +1,93 @@
+/* font-family: 'Cinzel', serif;
+font-family: 'Inter', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --bg-url: url("./image/image.png");
+  --ff-first: "Cinzel", serif;
+  --ff-second: "Inter", sans-serif;
+  --text-color: #151718;
+}
+
+body {
+  font-family: var(--ff-first);
+  background: var(--bg-url) no-repeat top center/cover;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+
+  margin: 200px auto 0;
+}
+
+.headline h1 {
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 8.6rem;
+  text-align: center;
+
+  color: var(--text-color);
+  /* -webkit-text-stroke: 1px #000000; */
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.headline h1 span {
+  color: #db2777;
+}
+
+.headline p {
+  font-family: var(--ff-second);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-align: center;
+
+  color: rgba(44, 46, 47, 0.9);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.links a {
+  text-decoration: none;
+
+  font-family: var(--ff-first);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+
+  padding: 1.6rem 3.2rem;
+
+  color: var(--text-color);
+}
+
+.links button {
+  cursor: pointer;
+
+  background: #db2777;
+  border: 0;
+  border-radius: 8rem;
+
+  font-family: var(--ff-first);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+
+  padding: 1.6rem 3.2rem;
+
+  color: #ffffff;
+}
