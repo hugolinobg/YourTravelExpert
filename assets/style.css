@@ -1,6 +1,3 @@
-/* font-family: 'Cinzel', serif;
-font-family: 'Inter', sans-serif; */
-
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +14,8 @@ font-family: 'Inter', sans-serif; */
 
 body {
   font-family: var(--ff-first);
-  background: var(--bg-url) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat center/cover;
+  height: 100vh;
 }
 
 main {
@@ -27,7 +25,7 @@ main {
   justify-content: center;
   gap: 72px;
 
-  margin: 200px auto 0;
+  padding-top: 200px;
 }
 
 .headline h1 {
