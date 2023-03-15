@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto prático da Jornada do Zero à Primeira Vaga da Rocketseat.
 
-- [Acesse o projeto finalizado, online](hugolinobg.github.io/challengeOne)
+- [Acesse o projeto finalizado, online](https://hugolinobg.github.io/challengeOne/)
 
 ## 🔖 Layout
 
