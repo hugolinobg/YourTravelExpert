@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto prático da Jornada do Zero à Primeira Vaga da Rocketseat.
+Projeto prático de uma Landing Page da Jornada do Zero à Primeira Vaga da Rocketseat.
 
 - [Acesse o projeto finalizado, online](https://hugolinobg.github.io/YourTravelExpert/)
 
